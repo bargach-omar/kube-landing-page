@@ -374,9 +374,12 @@ hr.style-one {
 */
 .banner-style-one {
   position: relative;
-  padding-top: 300px;
-  padding-bottom: 219px;
+  padding-top: 230px;
+  padding-bottom: 0px;
   background: #fff url(../images/banner-bg-1-1.png) top right no-repeat;
+  }
+  .players-online {
+    padding-top: 5rem!important;
   }
   .banner-style-one:before, .banner-style-one:after {
     content: '';
