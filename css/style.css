@@ -482,7 +482,7 @@ hr.style-one {
     .banner-style-one .content-block p {
       margin: 0; }
     .banner-style-one .content-block h3 {
-      color: #273167;
+      /* color: #273167; */
       font-size: 60px;
       line-height: 70px;
       font-weight: 500;
@@ -527,8 +527,8 @@ hr.style-one {
         margin-left: 16px; }
       .banner-style-one .content-block .banner-btn:hover {
         color: #fff;
-        background-color: #E94FCA;
-        border-color: #E94FCA; }
+        background-color: #8682e3;
+        border-color: #8682e3; }
         .banner-style-one .content-block .banner-btn:hover i {
           color: #fff; }
   .banner-style-one.home-page-two {
