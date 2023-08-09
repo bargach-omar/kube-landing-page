@@ -1,2 +1,0 @@
-# attackube
-attackube landing page
