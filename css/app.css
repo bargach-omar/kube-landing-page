@@ -2866,7 +2866,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   left: -200px;
   width: 400px;
   height: 400px;
-  background: #EEEEEE;
+  background: #fca94c;
 }
 
 .main__circle:nth-child(2) {
@@ -5952,7 +5952,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   -ms-flex-align: center;
   align-items: center;
   padding: 0 24px;
-  background: #896BA7;
+  background: #0A4D68;
   color: #fff;
 }
 
@@ -5983,7 +5983,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   bottom: 165px;
   width: 90px;
   height: 90px;
-  background: rgba(250, 184, 196, 0.5);
+  background: #00FFCA;
 }
 
 .roadmap__circle:nth-child(2) {
