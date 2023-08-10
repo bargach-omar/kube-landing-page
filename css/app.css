@@ -2028,7 +2028,7 @@ body {
   letter-spacing: -0.025em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #292930;
+  color: #fff;
 }
 
 body.no-scroll {
@@ -2071,8 +2071,8 @@ body.no-scroll {
 }
 
 .btn_pink {
-  background: #EEEEEE;
-  color: #292930;
+  background: #292930;
+  color: #EEEEEE;
 }
 
 .btn_white {
@@ -2262,7 +2262,7 @@ body.no-scroll {
 }
 
 body:not(.touch-device) .header__item[href]:hover {
-  color: #292930;
+  color: #00ADB5;
 }
 
 body:not(.touch-device) .header__item[href]:hover:before {
@@ -2874,7 +2874,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   left: calc(50% - 620px);
   width: 48px;
   height: 48px;
-  background: #393E46;
+  background: #fca94c;
 }
 
 .main__circle:nth-child(3) {
@@ -2883,7 +2883,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   z-index: 2;
   width: 128px;
   height: 128px;
-  background: #EEEEEE;
+  background: #393E46;
 }
 
 .main__circle:nth-child(4) {
@@ -2917,7 +2917,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   z-index: 2;
   width: 103px;
   height: 103px;
-  background: #fff;
+  background: #393E46;
 }
 
 .features {
@@ -4133,7 +4133,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 
 .work__stage {
   margin-bottom: 16px;
-  color: #C75C6F;
+  color: #0A4D68;
 }
 
 .work__title {
@@ -4405,7 +4405,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 
 .teams__stage {
   margin-bottom: 24px;
-  color: #C75C6F;
+  color: #0A4D68;
 }
 
 .teams__body {
@@ -5168,7 +5168,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 
 .design__stage {
   margin-bottom: 24px;
-  color: #C75C6F;
+  color: #0A4D68;
 }
 
 .design__title {
@@ -6350,6 +6350,8 @@ body:not(.touch-device) .header__item:hover .header__body {
 
 .quality {
   position: relative;
+  background-color: #222831;
+  background-image: url("../img/Star-PNG-HD.png");
 }
 
 .quality__head {
@@ -6359,7 +6361,7 @@ body:not(.touch-device) .header__item:hover .header__body {
 
 .quality__stage {
   margin-bottom: 24px;
-  color: #C75C6F;
+  color: #0A4D68;
 }
 
 .quality__top {
@@ -6406,7 +6408,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  border-top: 1px solid #E3E6E9;
+  border-top: 1px solid #2c363a;
 }
 
 .quality__col {
@@ -6422,11 +6424,11 @@ body:not(.touch-device) .header__item:hover .header__body {
   width: 50%;
   height: 444px;
   padding-top: 5px;
-  border-bottom: 1px solid #E3E6E9;
+  border-bottom: 1px solid #2c363a;
 }
 
 .quality__col:nth-child(2n+1) {
-  border-right: 1px solid #E3E6E9;
+  border-right: 1px solid #2c363a;
 }
 
 .quality__col:nth-child(2n+1) .quality__item {
@@ -6629,7 +6631,10 @@ body:not(.touch-device) .header__item:hover .header__body {
 
 .offer {
   position: relative;
-  margin-bottom: 364px;
+  padding-bottom: 364px;
+  background-color: #222831;
+  background-image: url("../img/Star-PNG-HD.png");
+
 }
 
 .offer__center {
@@ -6825,6 +6830,10 @@ body:not(.touch-device) .header__item:hover .header__body {
   width: 100%;
 }
 
+.footer {
+  background-color: #222831;
+}
+
 .footer__row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6907,7 +6916,7 @@ body:not(.touch-device) .header__item:hover .header__body {
   -ms-flex-align: center;
   align-items: center;
   padding: 26px 0 50px;
-  border-top: 1px solid #E3E6E9;
+  border-top: 1px solid #354247;
 }
 
 .footer__company {
