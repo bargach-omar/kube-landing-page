@@ -1,0 +1,28 @@
+.project {
+    background: #DDFFBC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project .projectCards {
+    display: flex;
+    gap: 1.8vw;
+}
+
+.project .projectCards>div {
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+.project .projectCards>div img {
+    width: 100%;
+    height: 100%;
+    transition: transform .5s ease;
+    transform: scale(1);
+}
+
+.project .projectCards>div img:hover {
+    transform: scale(1.1);
+}
