@@ -95,3 +95,7 @@
     top: 70vw;
     right: 6vw;
 }
+
+.textUnderline {
+    text-decoration: underline;
+}
