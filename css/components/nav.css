@@ -15,6 +15,7 @@
 .navWrapper {
     padding: 1vw 2.60vw;
     backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
     border: 2px solid var(--black);
     border-radius: 100px;
     display: flex;
