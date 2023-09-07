@@ -103,6 +103,12 @@ section {
     margin-top: 0.52vw;
 }
 
+.rounded {
+    border-radius: 50%;
+    width: 225px; /* Définissez la largeur souhaitée */
+    height: 225px; /* Définissez la hauteur souhaitée */
+    object-fit: cover; /* Assurez-vous que l'image remplit les dimensions spécifiées */
+}
 /*========= buttons =========*/
 
 .btn {
@@ -117,6 +123,8 @@ section {
     width: fit-content;
     transition: box-shadow .3s ease;
 }
+
+  
 
 .btn:hover {
     box-shadow: none;
@@ -229,6 +237,8 @@ section {
     .pricing .pricingHeader {
         width: 50%;
     }
+
+    
 
     #shape8 {
         top: 10vw;
@@ -449,7 +459,7 @@ section {
     }
 
     .about .aboutImg {
-        width: 70%;
+        width: 100%;
     }
 
     .about .aboutText {
@@ -775,7 +785,7 @@ section {
     }
 
     .about .aboutImg {
-        width: 90%;
+        width: 100%;
     }
 
     /*- projects -*/
